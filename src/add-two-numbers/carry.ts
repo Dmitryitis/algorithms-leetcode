@@ -30,8 +30,6 @@ export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNod
 
         if (l2 && l2.next) l2 = l2.next
         else l2 = null
-
-        console.log(l1)
     }
 
     return dummy.next
